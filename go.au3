@@ -50,7 +50,7 @@ Func Teleport()
 	Sleep(100)
 
 	Send("{s down}")
-	Sleep(100)
+	Sleep(200)
 	Send("{s up}")
 	Sleep(100)
 
@@ -63,6 +63,24 @@ Func Teleport()
 	Sleep(300)
 	Send("{e up}")
 	Sleep(300)
+EndFunc
+
+
+Func RunBack()
+	Send("{s down}")
+	Sleep(2000)
+	Send("{s up}")
+	Sleep(250)
+
+	Send("{d down}")
+	Sleep(1500)
+	Send("{d up}")
+	Sleep(50)
+
+	Send("{w down}")
+	Sleep(1500)
+	Send("{w up}")
+	Sleep(50)
 EndFunc
 
 
@@ -81,19 +99,6 @@ Func RunForward()
 	Sleep(1300)
 	Send("{w up}")
 	Sleep(250)
-EndFunc
-
-
-Func RunBack()
-	Send("{s down}")
-	Sleep(2000)
-	Send("{s up}")
-	Sleep(250)
-
-	Send("{d down}")
-	Sleep(3000)
-	Send("{d up}")
-	Sleep(50)
 EndFunc
 
 
