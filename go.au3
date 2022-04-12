@@ -78,7 +78,7 @@ Func RunForward()
 	Sleep(50)
 
 	Send("{w down}")
-	Sleep(1100)
+	Sleep(1300)
 	Send("{w up}")
 	Sleep(250)
 EndFunc
