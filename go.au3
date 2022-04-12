@@ -31,7 +31,7 @@ EndFunc
 
 
 Func KillAll()
-For $i = 0 to 2
+For $i = 0 to 0
 	Bang()
 	Sleep(4000)
 	next
@@ -68,7 +68,7 @@ Func RunForward()
 	Sleep(50)
 
 	Send("{w down}")
-	Sleep(1100)
+	Sleep(900)
 	Send("{w up}")
 	Sleep(250)
 EndFunc
@@ -103,7 +103,8 @@ EndFunc
 
 
 $Do = 1
-CountDown("wtn", 7000)
+
+CountDown("wtn", 6000)
 
 
 While $Do = 1
@@ -111,6 +112,6 @@ While $Do = 1
 	Sleep(8000)
 	RunForward()
 	KillAll()
-	RunBack()
+	;RunBack()
 	;$Do = 0
 WEnd
