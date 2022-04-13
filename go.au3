@@ -93,7 +93,7 @@ Func Teleport()
 	Send("{d down}")
 	Sleep(20)
 	Send("{d up}")
-	Sleep(500)
+	Sleep(1500)
 
 	Send("{e down}")
 	Sleep(300)
