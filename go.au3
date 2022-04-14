@@ -63,7 +63,7 @@ Func RunForward()
 	Sleep(250)
 
 	Send("{a down}")
-	Sleep(800)
+	Sleep(700)
 	Send("{a up}")
 	Sleep(50)
 
@@ -110,7 +110,6 @@ EndFunc
 $Do = 1
 
 CountDown("wtn", 6000)
-
 
 While $Do = 1
 	Teleport()
