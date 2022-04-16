@@ -21,3 +21,6 @@ than
 Enjoy.
 
 To stop script: Alt+Tab to SciTe widow, Tools - Stop executing.
+
+10 hrs farming:
+![](https://github.com/Wolfram-180/eldenring_mohgwyn/blob/main/10_hrs_farming.jpg?raw=true)
