@@ -1,6 +1,6 @@
 # eldenring_mohgwyn
 
-Runes, runes....
+Bot fpr farming runes using AutoIt script on PC! Really works!
 
 Video of process:
 https://youtu.be/3VD-NN4XXfc
